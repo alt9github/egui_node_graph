@@ -820,7 +820,7 @@ where
             );
             let body = Shape::Rect(RectShape {
                 rect: body_rect,
-                rounding: Rounding::none(),
+                rounding: Rounding::ZERO,
                 fill: background_color,
                 stroke: Stroke::NONE,
                 fill_texture_id: TextureId::default(),
